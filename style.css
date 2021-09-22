@@ -14,20 +14,18 @@ body {
 /*HEADING*/
 .container-1 {
     color: white;
-    border: red solid 2px;
     height: 200px;
     margin-bottom: 10px;
 }
 
 .logo-heading {
     display:flex;
-    border: blue solid 2px;
     height:max-content;
 }
 @media screen and (max-width: 780px) {
     .box2, h1 {
-        font-size: 30px;
-        padding-top: 30px;
+        font-size: 35px;
+        padding-top: 20px;
     }
 }
 
@@ -38,7 +36,6 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width:100px;
-    border: aqua solid 1px;
 }
 
 .box2 {
@@ -48,7 +45,6 @@ body {
     text-align: center;
     height: 150px;
     width:100%;
-    border: rgb(58, 8, 173) solid 1px;
     flex: 1;
 }
 
@@ -58,7 +54,6 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width:100px;
-    border: rgb(224, 175, 14) solid 1px;
 }
 
 @media screen and (max-width: 780px) {
@@ -68,7 +63,6 @@ body {
 }
 
 .container-2 {
-    border: red solid 2px;
     height: 70px;
     margin-bottom: 10px;
 }
@@ -77,7 +71,6 @@ body {
 
 .menu {
     display:flex;
-    border: blue solid 2px;
     height:max-content;
 }
 
@@ -85,12 +78,11 @@ body {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    border: aqua solid 1px;
     width: 100%vh;
     height: max-content;
     justify-content: center;
     text-decoration: none;
-    padding: 0 60px;
+    padding: 0 40px;
 }
 
 nav :hover {
@@ -106,7 +98,6 @@ nav :hover {
 
 .container-3 {
     color: white;
-    border: red solid 2px;
     height: 300px;
     margin-bottom: 10px;
     object-fit: contain;
@@ -120,16 +111,15 @@ nav :hover {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     flex-direction: column;
-    border: blue solid 2px;
     height: 200px;
     width: 100%;
+    border: white solid 1px;
+    border-radius: 8px;
 }
 
 .banner-info {
     padding-top: 80px;
     height: 100%;
-    width:100%;
-    border: aqua solid 1px;
     font-size: 2rem;
     text-align: center;
 
@@ -152,7 +142,6 @@ nav :hover {
 
 .container-4 {
     color: white;
-    border: red solid 2px;
     height: max-content;
     margin-bottom: 10px;
 }
@@ -180,8 +169,9 @@ nav :hover {
     background-repeat: no-repeat;
     height: 300px;
     width:120px;
-    border: aqua solid 1px;
+    border: white solid 1px;
 }
+
 .classics {
     background-image: url(./images/low-rider.jpg);
     background-position: center;
@@ -189,7 +179,7 @@ nav :hover {
     background-repeat: no-repeat;
     height: 300px;
     width:120px;
-    border: rgb(58, 8, 173) solid 1px;
+    border: white solid 1px;
 }
 
 .restoration {
@@ -199,7 +189,7 @@ nav :hover {
     background-repeat: no-repeat;
     height: 300px;
     width:120px;
-    border: rgb(224, 175, 14) solid 1px;
+    border: white solid 1px;
 }
 
 .parts {
@@ -209,7 +199,7 @@ nav :hover {
     background-repeat: no-repeat;
     height: 300px;
     width:120px;
-    border: rgb(185, 22, 150) solid 1px;
+    border: white solid 1px;
 }
 
 @media screen and (max-width: 780px) {
@@ -230,8 +220,7 @@ nav :hover {
 /*THE TEAM*/
 .container-5 {
     color: white;
-    background-image: url(./images/flag2.jpg);
-    border: red solid 2px;
+    background-image: url(./images/flag2.jg);
     height: 500px;
     margin-bottom: 40px;
     justify-content: center;
@@ -244,15 +233,15 @@ nav :hover {
     text-align: center;
     height: 100px;
     width:100%;
-    border: rgb(58, 8, 173) solid 1px;
 }
 h3 {
     color: white;
     font-size: 25px;
 }
 
-img {
+#pic1, #pic2 {
     border-radius: 8px;
+    border: white solid 1px;
 }
 
 @media screen and (max-width: 780px) {
