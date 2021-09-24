@@ -1,6 +1,6 @@
 # Route-66-Importers
 
-Codecademy Project - to create a splash page or a fictional business
+Codecademy Project - to create a splash page for a fictional business
 
 Using Flexbox
 
